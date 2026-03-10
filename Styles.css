@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+}
+
+/* HEADER */
+
+header {
+  background: #1f2937;
+  color: white;
+  padding: 15px 40px;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#img-logo {
+  width: 40px;
+}
+
+/* SEARCH SECTION */
+
+#search-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#coin-search {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#Search-button {
+  padding: 10px 15px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CRYPTO CARD */
+
+#crypto-info {
+  background: white;
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#coin-logo {
+  width: 60px;
+  margin: 10px 0;
+}
+
+#coin-name {
+  margin-bottom: 10px;
+}
+
+/* CHART */
+
+#chart-info {
+  width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* FAVOURITES */
+
+#favourites-button {
+  width: auto;
+  padding: 10px 15px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#chart-info {
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

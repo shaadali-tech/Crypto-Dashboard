@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Dashboard</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <img
+          id="img-logo"
+          src="https://imgs.search.brave.com/TxiJnKQlLw7TvN96Vm1Kd6Pm9RGYGqCAVOfzsFpJUNY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzUv/Njg5LzI2NS9zbWFs/bC9kaWdpdGFsLWNy/eXB0by1jdXJyZW5j/eS1sb2dvLXdpdGgt/YmxvY2tjaGFpbi10/ZWNobm9sb2d5LWZp/bmFuY2lhbC10ZWNo/bm9sb2d5LW9yLWZp/bnRlY2gtbG9nby10/ZW1wbGF0ZS12ZWN0/b3IuanBn"
+          alt="Crypto Dashboard Logo"
+        />
+        <h3>Crypto Dashboard</h3>
+      </section>
+    </header>
+
+    <section id="search-section">
+      <input id="coin-search" type="text" placeholder="Search The Coin" />
+      <button id="Search-button">Search</button>
+
+      <p>Get the latest updates on your favorite cryptocurrencies.</p>
+    </section>
+
+    <section id="crypto-info">
+      <h2 id="coin-name">Bitcoin (BTC)</h2>
+      <img id="coin-logo" src="" alt="coin symbol" />
+      <p id="coin-price">Current Price: $50,000</p>
+      <p id="coin-change">24h Change: +5%</p>
+      <p id="coin-marketcap">Market Cap: $1 Trillion</p>
+      <button id="favourites-button">Favourites</button>
+    </section>
+
+    <section id="chart-info">
+      <canvas id="chart-canvas"> </canvas>
+    </section>
+    <section id="Favourites"></section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
