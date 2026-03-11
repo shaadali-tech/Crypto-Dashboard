@@ -308,34 +308,40 @@ header h3 {
 @media (max-width: 860px) {
   #chart-info {
     width: calc(100% - 40px);
+    padding: 20px;
+  }
+
+  #crypto-info {
+    width: calc(100% - 40px);
+  }
+
+  #Favourites {
+    max-width: calc(100% - 40px);
   }
 }
 
 @media (max-width: 600px) {
   header {
-    padding: 14px 20px;
+    padding: 12px 16px;
   }
 
-  #coin-search {
-    width: 100%;
+  header h3 {
+    font-size: 1.1rem;
+  }
+
+  #img-logo {
+    width: 34px;
+  }
+
+  /* Top Coins */
+  #top-coins {
+    margin-top: 20px;
+    padding: 0 16px;
+  }
+
+  #top-coins h2 {
+    font-size: 0.9rem;
     margin-bottom: 10px;
-  }
-
-  #Search-button {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  #search-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    padding: 0 20px;
-  }
-
-  #crypto-info {
-    width: calc(100% - 40px);
   }
 
   #top-coins-list {
@@ -343,7 +349,131 @@ header h3 {
   }
 
   #top-coins-list li {
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     padding: 8px 14px;
+  }
+
+  /* Search */
+  #search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 0 16px;
+    margin-top: 24px;
+  }
+
+  #coin-search {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+
+  #Search-button {
+    margin-left: 0;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+
+  #search-section p {
+    font-size: 0.82rem;
+    margin-top: 8px;
+  }
+
+  /* Crypto Card */
+  #crypto-info {
+    width: calc(100% - 32px);
+    padding: 24px 20px;
+    margin: 24px auto;
+    border-radius: 16px;
+  }
+
+  #coin-name {
+    font-size: 1.15rem;
+  }
+
+  #coin-logo {
+    width: 56px;
+  }
+
+  #coin-price {
+    font-size: 1rem;
+  }
+
+  #coin-change {
+    font-size: 0.85rem;
+    padding: 5px 12px;
+  }
+
+  #coin-marketcap {
+    font-size: 0.82rem;
+  }
+
+  #favourites-button {
+    padding: 10px 22px;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  /* Chart */
+  #chart-info {
+    width: calc(100% - 32px);
+    padding: 16px;
+    margin: 24px auto;
+    border-radius: 16px;
+  }
+
+  /* Favourites */
+  #Favourites {
+    max-width: 100%;
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+
+  #Favourites li {
+    padding: 12px 14px;
+    border-radius: 12px;
+    font-size: 0.84rem;
+  }
+
+  #Favourites li button {
+    width: 28px;
+    height: 28px;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  header {
+    padding: 10px 12px;
+  }
+
+  header h3 {
+    font-size: 1rem;
+  }
+
+  #top-coins-list li {
+    font-size: 0.74rem;
+    padding: 6px 12px;
+  }
+
+  #crypto-info {
+    width: calc(100% - 24px);
+    padding: 20px 16px;
+  }
+
+  #chart-info {
+    width: calc(100% - 24px);
+    padding: 12px;
+  }
+
+  #coin-name {
+    font-size: 1.05rem;
+  }
+
+  #coin-price {
+    font-size: 0.92rem;
   }
 }
